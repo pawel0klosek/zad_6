@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+form, .button {
+ width: 200px;
+}
+
+form {
+    height: 180px;
+    border: solid 3px gray;
+    background-color: beige;
+    position: absolute;
+}
+
+div {
+    height: 30px;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.312);
+}
+
+.result {
+    text-shadow: gray 1px 1px;
+}
+
+.description {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    width: 192px;
+    text-align: center;
+}
+
+.button {
+    background-image: linear-gradient(grey, #fff);
+    border-bottom-color: gra;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
